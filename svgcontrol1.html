@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> My webpage </title>
+    <link rel="stylesheet" type="text/css" href="main2.css">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+
+    <div id="mainContent">
+        <div id="personalData">
+            <h1>Fatlum Zahiti</h1>
+            <p id="JuniorArticle">
+                Junior Fronted Developer
+            </p>
+        </div>
+
+        <div>
+            <div id="contactNavigation">
+                <div id="contactIcons">
+                    <div><a href="#" class="link"> &nbsp; ab</a></div>
+                    <div><a href="#" class="link">cd</a></div>
+                    <div><a href="#" class="link"> &nbsp; ef</a></div>
+                </div>
+                <img src="myAvatar.png" class="avatar" alt="Smiley face">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="navigation_window">
+        <ul id="nav-links" style="padding-left: 0;">
+
+
+            <div id="main_click">
+                <li><a href="#" id="main_click" class="link nav-link-active">Main</a></li>
+            </div>
+
+            <div id="second_click" class="nav-link">
+                <li><a href="#" class="link">About</a></li>
+            </div>
+
+
+            <div class="nav-link">
+                <li><a href="#" class="link">Job</a></li>
+            </div>
+
+
+            <div class="nav-link">
+                <li><a href="#" class="link">Technologies</a></li>
+            </div>
+
+
+            <div class="nav-link">
+                <li><a href="#" class="link">Contact</a></li>
+            </div>
+
+
+        </ul>
+    </div>
+
+
+
+
+    <div id="skills">
+        <div id="title">
+            <h1>What I can do?</h1>
+        </div>
+
+        <div id="skillsTechMain">
+            <div id="skill_tech">
+                <div id="divJS" class="techLogo">
+                    <p id="learning_p"> <img src="jslogo.png" class="tech_logo" alt="jslogo"></p>
+                </div>
+
+
+                <div id="divCss" class="techLogo">
+                    <p id="medium_p"><img src="logocss.png" class="tech_logo" alt="csslogo"></p>
+                </div>
+
+
+                <div id="divHTML" class="techLogo">
+                    <p id="good_p"><img src="logohtml.png" class="tech_logo" alt="htmllogo"></p>
+                </div>
+
+
+            </div>
+            <div id="skillsArticle">
+                <h2> Tere is a little about my skils:</h2>
+                <p>Please consider few things before you judge me: </p>
+                <ul>
+                    <li>Im a new joiner</li>
+                    <li>This is my firstwebpage</li>
+                    <li>It's hard to close those "skills"</li>
+                    <li>Please check on your left what am I good at</li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="me">
+        <div id="about_me">
+            <p id="about_me_text">
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+    <script>
+        var some_text = "Junior Fronted Developer";
+        var main_click = document.getElementById("main_click");
+        var about_me_text = document.getElementById("about_me_text");
+        var article_p = document.getElementById("learning_p");
+        var navigation = document.getElementById("navigation_window")
+
+        main_click.addEventListener("click", function() {
+            about_me_text.innerHTML = "Hello World" + some_text;
+        })
+
+
+        var article1_learning = document.getElementById("learning")
+
+
+        main_click.addEventListener("hover", function() {
+
+        });
+
+        /*  $("p").hover (function(){;
+                                    var i
+                                    for (i=0; i<=10; i++){
+                                           $("p").text(some_text + some_text);
+                                           console.log( "1" )
+                                    }
+                                    
+                                   
+                                   
+                                    
+                               
+                           
+                           });        */
+        /*  $("#learning").hover(function() {;
+          $(this).text(some_text);
+      });
+     console.log (article_p);    
+                console.log (some_text);    */
+
+    </script>
+</body>
+
+</html>
